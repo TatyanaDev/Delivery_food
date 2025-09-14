@@ -7,48 +7,89 @@
     <title>Delivery Food</title>
   </head>
   <body>
-    <header class="header">
-      <div class="container flex-container">
-        <a href="/">
-          <img src="./assets/icons/logo.png" alt="Delivery Food" />
-        </a>
+    <div class="page-wrapper">
+      <header class="header">
+        <div class="container flex-container">
+          <a href="/">
+            <img src="./assets/icons/logo.png" alt="Delivery Food" />
+          </a>
 
-        <nav>
-          <ul>
-            <li><a href="#">Войти</a></li>
-            <li><a href="#">Корзина</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
+          <nav>
+            <ul class="header-controls">
+              <li>
+                <button type="button" class="btn btn-primary flex-center">
+                  <img src="./assets/icons/user.png" alt="User" />
+                  <span>Войти</span>
+                </button>
+              </li>
+              <li>
+                <button type="button" class="btn btn-outline flex-center">
+                  <img src="./assets/icons/shopping-cart.png" alt="Shopping cart" />
+                  <span>Корзина</span>
+                </button>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
 
-    <main class="main">
-      <section class="container">
-        <h2>Рестораны</h2>
+      <main class="main">
+        <section class="container banner">
+          <h1 class="banner-title">Онлайн-сервис доставки еды на дом</h1>
+          <p class="banner-description">Блюда из любимого ресторана привезет курьер в перчатках, маске и с антисептиком</p>
+        </section>
 
-        <article>
-          <h3>Пицца плюс</h3>
-        </article>
-      </section>
-    </main>
+        <section class="container">
+          <div class="flex-container restaurant-header-container">
+            <h2 class="restaurant-title">Рестораны</h2>
 
-    <footer class="footer">
-      <div class="container flex-container">
-        <a href="/">
-          <img src="./assets/icons/logo.png" alt="Delivery Food" />
-        </a>
+            <label class="search-wrapper">
+              <input type="search" name="restaurant-search" placeholder="Поиск блюд и ресторанов" class="restaurant-search" />
+            </label>
+          </div>
 
-        <nav class="footer-nav">
-          <ul>
-            <li><a href="#">Ресторанам</a></li>
-            <li><a href="#">Курьерам</a></li>
-            <li><a href="#">Пресс-центр</a></li>
-            <li><a href="#">Контакты</a></li>
-          </ul>
-        </nav>
+          <!-- <article>
+            <h3>Пицца плюс</h3>
+          </article> -->
+        </section>
+      </main>
 
-        <div>соц. сети</div>
-      </div>
-    </footer>
+      <footer class="footer">
+        <div class="container flex-container">
+          <a href="/" class="footer-logo">
+            <img src="./assets/icons/logo.png" alt="Delivery Food" />
+          </a>
+
+          <nav class="footer-nav">
+            <ul>
+              <li><a href="#">Ресторанам</a></li>
+              <li><a href="#">Курьерам</a></li>
+              <li><a href="#">Пресс-центр</a></li>
+              <li><a href="#">Контакты</a></li>
+            </ul>
+          </nav>
+
+          <nav class="footer-social">
+            <ul class="flex-center">
+              <li>
+                <a href="#" class="flex-center">
+                  <img src="./assets/icons/social-media/instagram.png" alt="Instagram" />
+                </a>
+              </li>
+              <li>
+                <a href="#" class="flex-center">
+                  <img src="./assets/icons/social-media/facebook.png" alt="Facebook" />
+                </a>
+              </li>
+              <li>
+                <a href="#" class="flex-center">
+                  <img src="./assets/icons/social-media/vk.png" alt="VK" />
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>

@@ -1,7 +1,31 @@
 .footer {
-  padding: 60px 0px 60px;
+  padding: 60px 0px;
+}
+
+.footer .container {
+  flex-wrap: wrap;
+  row-gap: 10px;
+}
+
+.footer-logo {
+  padding-right: 36px;
 }
 
 .footer-nav {
   flex-grow: 1;
+}
+
+.footer-nav ul {
+  column-gap: 15px;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.footer-nav a {
+  color: #595959;
+  font-size: 18px;
+}
+
+.footer-social ul {
+  column-gap: 21px;
 }

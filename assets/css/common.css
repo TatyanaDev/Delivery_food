@@ -1,0 +1,22 @@
+.page-wrapper {
+  flex-direction: column;
+  min-height: 100vh;
+  display: flex;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.flex-container {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.flex-center {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
